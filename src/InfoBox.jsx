@@ -30,7 +30,7 @@ import "./Infobox.css";
          <p>Humidity={info.humidity}</p>
          <p>Min temperature={info.tempMin}&deg;C</p>
          <p>Max Temperature={info.tempMax}&deg;C</p>
-         <p>the weather can be described as <i>{info.weather[0].description}</i> and feels like {info.feelsLike}&deg;C </p>
+         <p>the weather can be described as <i>{info.weather}</i> and feels like {info.feelsLike}&deg;C </p>
         </Typography>
       </CardContent>
     </Card>
